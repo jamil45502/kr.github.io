@@ -1,0 +1,71 @@
+.foo-di-voice-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #006fbc;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999
+}
+
+.fa.di-voice-icon-float {
+    margin-top: 16px;
+    font-size: 30px;
+    color: #fff
+}
+
+dialog#karaoke {
+    position: fixed;
+    top: 100px;
+    z-index: 9999
+}
+
+div#mobile-search-field.voice-active,
+div.search-wrap.voice-active {
+    position: relative
+}
+
+div.search-wrap.voice-active svg.di-voice-mic {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    fill: #616161;
+    background-color: #ddd;
+    border-radius: 25px
+}
+
+div#mobile-search-field.voice-active svg.di-voice-mic {
+    position: absolute;
+    margin: 1px 5px 5px 1px;
+    padding: 5px;
+    fill: #616161;
+    background-color: #ddd;
+    border-radius: 25px
+}
+
+div.search-wrap.voice-active svg.di-voice-mic.listening-active {
+    fill: #fff;
+    background-color: #fd901e
+}
+
+div#mobile-search-field.voice-active svg.di-voice-mic.listening-active {
+    fill: #fff;
+    background-color: #fd901e
+}
+
+div.search-wrap.voice-active input.search-input {
+    padding-left: 60px
+}
+
+div#mobile-search-field.voice-active input.search-input {
+    padding-left: 35px
+}
+
+/*# sourceMappingURL=di-voice.min.css.map */

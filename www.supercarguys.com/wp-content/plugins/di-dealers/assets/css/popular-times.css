@@ -1,0 +1,105 @@
+.di-popular-times-wrap {
+    position: relative
+}
+
+#popular-hours-container {
+    padding-top: 10px
+}
+
+#popular-hours-dropdown {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 0;
+    border: none
+}
+
+#popular-hours-dropdown.nav-tabs>li>a {
+    border: none
+}
+
+#popular-hours-select {
+    padding: 10px 0
+}
+
+#popular-hours-select-contents {
+    left: auto;
+    right: 0
+}
+
+.selected-day {
+    padding: 0 0 10px
+}
+
+.popular-hours {
+    width: 100%;
+    height: 200px;
+    padding: 0
+}
+
+.popular-hours .graph-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -ms-flex-wrap: none;
+    flex-wrap: nowrap;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    align-items: flex-end;
+    height: 180px;
+    position: relative;
+    border-bottom: 1px solid #ccc
+}
+
+.popular-hours .graph-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc
+}
+
+.popular-hours .graph-wrap .popular-bar {
+    flex: 1 0 6.6666%;
+    background: #d3d3d3;
+    border: 1px solid #f3f3f3;
+    border-bottom: none;
+    position: relative;
+    z-index: 10
+}
+
+.popular-hours .graph-wrap .popular-bar:hover {
+    background: #ccc
+}
+
+.popular-hours .legend-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -ms-flex-wrap: none;
+    flex-wrap: nowrap
+}
+
+.popular-hours .legend-wrap .popular-time {
+    flex: 1 0 6.6666%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px
+}
+
+.popular-hours.today .popular-bar.now-bar {
+    background: #007cc2
+}
